@@ -1,152 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landscape Navbar Example</title>
-    <!-- Link to the external CSS file -->
-    <link rel="stylesheet" href="page2.component.css">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="logo">this is page 2.1</div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li class="dropdown">
-                <a href="#">Topics</a>
-                <ul class="dropdown-content">
-                    <li><a href="#">Technology</a></li>
-                    <li><a href="#">Web Development</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Support</a></li>
-            <!-- <li><a href="#">Working flow</a></li> -->
 
-            <!-- Dropdown menu -->
-            <!-- <li class="dropdown">
-                <a href="#">Working Flow</a>
-                <ul class="dropdown-content">
-                    <li><a href="#">To Do</a></li>
-                   
-                    <li><a href="#">In Progress</a></li>
-                    <li><a href="#">Done</a></li>
-                    <li><a href="#">Canceled</a></li>
-                    <li><a href="#">On Hold</a></li>
-                    
-                </ul>
-            </li> -->
-
-            <li class="dropdown">
-                <a href="#">Working Flow</a>
-                <ul class="dropdown-content">
-                    <li>
-                        <a href="#">To Do <span class="add-icon">+</span></a>
-                    </li>
-                    <li>
-                        <a href="#">In Progress <span class="add-icon">+</span></a>
-                    </li>
-                    <li>
-                        <a href="#">Done <span class="add-icon">+</span></a>
-                    </li>
-                    <li>
-                        <a href="#">Canceled <span class="add-icon">+</span></a>
-                    </li>
-                    <li>
-                        <a href="#">On Hold <span class="add-icon">+</span></a>
-                    </li>
-                </ul>
-            </li>
-            
-            <!-- <li><a href="#" class="disabled">Disabled</a></li> -->
-            <li class="search-bar">
-                <form>
-                    <input type="text" placeholder="Search">
-                    <button type="submit">Search</button>
-                </form>
-            </li>
-        </ul>
-    </nav>
-  <!--  <img src="image/Manali.jpg" alt="My Image" width="500"> -->
-<!-- Adding card -->
-
-
-<div class="container">
-    <!-- To Do Column -->
-    <div class="column">
-        <h2>To Do</h2>
-        <div class="card">
-            <h3>CAM-4</h3>
-            <p>Add Multi-Language Support</p>
-        </div>
-        <div class="card">
-            <h3>CAM-2</h3>
-            <p>Implement Email Notification System</p>
-        </div>
-    </div>
-
-    <!-- In Progress Column -->
-    <div class="column">
-        <h2>In Progress</h2>
-        <div class="card">
-            <h3>CAM-3</h3>
-            <p>Optimize Database Queries for Performance</p>
-        </div>
-    </div>
-
-    <!-- Done Column -->
-    <div class="column">
-        <h2>Done</h2>
-        <div class="card">
-            <h3>CAM-6</h3>
-            <p>Enhance Search Functionality</p>
-        </div>
-        <div class="card">
-            <h3>CAM-7</h3>
-            <p>Integrate Third-Party Payment Gateway</p>
-        </div>
-    </div>
-
-    <!-- Canceled Column -->
-    <div class="column">
-        <h2>Canceled</h2>
-        <div class="card">
-            <h3>CAM-8</h3>
-            <p>Cancel Deprecated Features</p>
-        </div>
-    </div>
-
-    <!-- On Hold Column -->
-    <div class="column">
-        <h2>On Hold</h2>
-        <div class="card">
-            <h3>CAM-9</h3>
-            <p>Wait for Third-Party Approvals</p>
-        </div>
-    </div>
-</div>
 
 <!-- page2/page2-2.html -->
 
-<button class="navigate-button" onclick="window.location.href='page2/page2-1.component.html'">Go to Page 2.2</button>
+<!-- <button class="navigate-button" onclick="window.location.href='page2/page2-1.component.html'">Go to Page 2.2</button> -->
 
 <!-- move to next page  -->
 <!-- <a href="page2-1/">Go to Page 2</a> -->
 
 
-<!-- <p>page2 works!</p>
-<h1>This is Page 2.1</h1>-->
-<!-- <button (click)="goToPage1()">Go to Page 2</button> -->
+<p>page2 works!</p>
+<h1>This is Page 2.1</h1>
+<button (click)="goToPage1()">Go to Page 2</button>
 
 
 <nav>
-  <!-- <a routerLink="page21">Page 21</a> -->| <!--Link to Page21 -->
-  <a routerLink="page21">page 21</a>
-  <!-- <a routerLink="page22">Page 22</a>   Link to Page22 -->
+  <!-- <a routerLink="page21">Page 21</a> --> <!--Link to Page21 -->
+  <a routerLink="page21">page 21</a> |
+  <a routerLink="page22">Page 22</a>
 </nav>
 <router-outlet></router-outlet>  <!-- Outlet for child routes -->
 
 <!-- </body>
 </html> -->
-</body>
-</html>
