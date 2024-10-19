@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Page 1</title>
-  <link rel="stylesheet" href="page1.component.css">
-</head>
-<body>
-
-  <!-- Navigation Bar -->
+<!-- Navigation Bar -->
   <div class="navbar">
     <a href="#">Home</a>
     <a href="#about">About</a>
@@ -21,17 +11,8 @@
     <p>Page 1 works!</p>
 
     <!-- Button to Navigate -->
-    <button onclick="goToPage2()">Go to Page 2</button>
+    <button (click)="goToPage2()">Go to Page 2</button>
   </div>
-
-  <script>
-    function goToPage2() {
-      alert('Navigating to Page 2!');
-      // Add navigation logic here
-    }
-  </script>
-</body>
-</html>
 
 <nav>
   <a routerLink="page11">Page 11</a> |  
